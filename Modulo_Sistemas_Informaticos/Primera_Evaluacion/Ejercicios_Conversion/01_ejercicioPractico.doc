@@ -1,0 +1,35 @@
+// Fecha: 17/09/2025
+
+// Primeras Tareas
+
+/**
+ * Convertir a Binario --> Base 2 (0 1)
+ * Convertir a Decimal --> Base 10 
+ * Convertir a Octal --> Base 8
+ * Convertir a Hexadecimal --> Base 16
+ */
+
+Ejercicios prácticos:
+
+// Traducir a Decimal el número 273,351
+
+2 * (10)2 + 7 * (10)1 + 3 * (10)0 + 3 * (10)-1 + 5 * (10)-2 + 1 * (10)-3 =
+= 200 + 70 + 3 + 0,3 + 0,05 + 0,001 =
+= 273,351
+
+
+// Traducir a Binario el número 01010
+
+0 * (2)4 + 1 * (2)3 + 0 * (2)2 + 1 * (2)1 + 0 * (2)0 =
+= 8 + 2 =
+= 10
+
+
+// ¿Para pasar de número Decimal a Binario?
+/**
+ * Dividiremos el número entre dos, 
+ * tantas veces como este pueda reducirse.
+ * 
+ * Tomaremos como números Binarios los restos
+ * de cada una de las simplificaciones
+ */
