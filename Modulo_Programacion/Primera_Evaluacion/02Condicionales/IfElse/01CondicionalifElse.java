@@ -1,9 +1,7 @@
-public class ifElse {
+public class condicionalifElse {
 
 
 public static void main(String[] args) {
-
-int edad = 18;
 
 /**
  * Condicional IF - ELSE IF - ELSE (TEORÍA GENERAL)
@@ -11,6 +9,10 @@ int edad = 18;
  * 2. Compruebo: ¿Ahora el condicional else es correcto? No, paso a else / Sí (FIN)
  * 3. Compruebo: Por último compruebo: ¿Este último condicional es correcto? Debería ser correcto, SI (FIN)
  **/
+
+
+// asignamos una variable
+int edad = 18;
 
 // probaremos si es correcto que la edad del usuario es menor a 18 años...
 
@@ -51,13 +53,13 @@ int sueldoSandra = 11500;
 
 //sueldo Antonio
 
-if (1000 > 2100) AND < (10000) {
+if (1000 > sueldoAntonio) AND < (claseAlta) {
     Sistem.out.println("Antonio se encuentra entre la clase baja y clase alta.");
 
-    else if (2100 > 2500) {
+    else if (sueldoAntonio > claseMedia) {
         System.out.printn("El sueldo de Antonio es de clase baja.");
 
-        else (10000 > 2100) {
+        else (claseBaja > sueldoAntonio) {
             System.out.println("El sueldo de Antonio es de clase media.");
         }
     }
@@ -66,19 +68,20 @@ if (1000 > 2100) AND < (10000) {
 
 // sueldo Marta
 
-if(1000 < 1250) AND < (10000 < 1250){
+if(claseBaja < sueldoMarta) AND < (claseAlta < sueldoMarta) {
     System.out.println("Sandra se encuentra entre la clase media y clase alta.");
 
-    } else if (1250 > 2500) AND (1250 > 10000) {
+    } else if (sueldoMarta > claseMedia) AND (sueldoSandra > claseAlta) {
         System.out.println("El sueldo de Marta es de clase alta");
 
-        } else (1250 < 2500) {
+        } else (sueldoMarta < claseMedia) {
             System.out.println("EL sueldo de Marta es de clase baja");
         }
 
 
 
 // sueldo Sandra
+
 if(1000 > 11500) AND < (11500 < 2500) {
     System.out.println("Sandra se encuentra entre la clase baja y media.");
 
@@ -90,3 +93,14 @@ if(1000 > 11500) AND < (11500 < 2500) {
         }
 
 }
+
+System.out.println("**************************************************")
+System.out.println("**************************************************")
+System.out.println("**************************************************")
+
+
+}
+ 
+ 
+ 
+ 
