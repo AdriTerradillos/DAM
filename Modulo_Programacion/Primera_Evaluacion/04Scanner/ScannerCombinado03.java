@@ -11,7 +11,7 @@ public class ScannerCombinado03 {
       2º- Pediremos el primer número 
       3º- Pediremos el segundo número
       4º- Sumamos los dos números
-      5º- Comprobamo que número es el mayor (condicional if) 
+      5º- Comprobamos que número es el mayor (condicional if) 
 
      */
 
