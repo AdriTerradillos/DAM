@@ -1,4 +1,4 @@
-public class condicionalifElse {
+public class CondicionalifElse01 {
 
 
 public static void main(String[] args) {

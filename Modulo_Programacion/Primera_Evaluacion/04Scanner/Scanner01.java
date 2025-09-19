@@ -1,22 +1,25 @@
-public class 01Scanner {
+import java.util.Scanner;
+
+public class Scanner01 {
 
     public static void main (String[] args) {
+
+  
+      // System.out.println("*** Conociendo la clase Scanner ***");
 
         /**
          --> Paso a paso
           1º- Declaro la variable 'Scanner' + [nombreVariable];
-          2º- Genero, un new Scanner, a partir de [nombreVariable];
+           Genero, un new Scanner, a partir de [nombreVariable] --> nuevo objeto;
           3º- De igual forma, genero una variable String y la asociamos al 
             [nombreVariable] del Scanner
+
            Vamos ahora a generar algunas variables aleatorias como las siguientes
          */
 
 
 // 1º- Declaro la variable 'Scanner' + [nombreVariable];
-
-Scanner teclado;
-
-// 2º- Genero, un new Scanner, a partir de [nombreVariable];
+// Genero, un new Scanner, a partir de [nombreVariable];(EN LA MISMA LÍNEA)
 
 Scanner teclado = new Scanner(System.in);
 
@@ -36,6 +39,9 @@ String nombre = teclado.nextLine();
 
 System.out.println("Tu nombre es: " + nombre);
 
-teclado.close():
+System.out.println("*** Fin del programa ***");
+
+teclado.close();
+
     }
 }

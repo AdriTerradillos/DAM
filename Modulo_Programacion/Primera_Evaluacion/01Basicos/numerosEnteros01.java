@@ -1,4 +1,4 @@
-public class 01numerosEnteros {
+public class numerosEnteros01 {
 
 
 public static void main(String[] args) {
