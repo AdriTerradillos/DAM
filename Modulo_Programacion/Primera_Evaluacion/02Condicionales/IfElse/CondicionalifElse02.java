@@ -3,7 +3,7 @@
 public class CondicionalifElse02 {
     
     public static void main(String[] args) {
-        
+    
         System.out.println("*** EJERCICIOS DE CLASE ***");
  
     double sueldo1 = 1700.00;
