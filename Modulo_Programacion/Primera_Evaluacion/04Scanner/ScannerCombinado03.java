@@ -5,30 +5,64 @@ import java.util.Scanner;
 
 public class ScannerCombinado03 {
 
+    /** Guía Ejercicio por pasos...
+     
+      1º- Creamos el objeto Scanner para leer desde la terminal
+      2º- Pediremos el primer número 
+      3º- Pediremos el segundo número
+      4º- Sumamos los dos números
+      5º- Comprobamo que número es el mayor (condicional if) 
+
+     */
+
+
     public static void main(String[] args) {
-        
-        Scanner numeroMayor = new Scanner(System.in);
+    
 
-        System.out.println("Escribe el primer número: ");
+        // Objeto Scanner
 
-        String valor1 = numeroMayor.nextLine();
-
-        System.out.println("EL primer valor es: " + valor1);
+        Scanner scanner = new Scanner(System.in);
 
 
-        String valor2 = numeroMayor.nextLine();
-        System.out.println("El segundo valor es: " + valor2);
+        // Pedir primer número
+
+        System.out.println("Tecleé el primer valor numérico: ");
+        int valor1 = scanner.nextInt();
 
 
-        // genero el condicional if:
+        // Pedir segundo número
+
+        System.out.println("Tecleé el segundo valor numérico: ");
+        int valor2 = scanner.nextInt();
+
+
+        // Sumar ambos números
+
+        int suma = valor1 + valor2;
+        System.out.println("La suma de los dos números es: " + suma);
+
+
+         System.out.println("");
+
+
+        // Comprobar que número es mayor
 
         if (valor1 > valor2) {
-            System.out.println("El número " + valor1 + "es mayor que el número " + valor2);
+            System.out.println("El primer valor númerico [ " + valor1 + " ] es mayor que el segundo valor numérico [ " + valor2 + " ]");
 
-            
+        } else if (valor2 > valor1) {
+            System.out.println("El segundo valor numérico [ " + valor2 + " ] es mayor que el primer valor numérico [ " + " ]");
+
         } else {
-            System.out.println("El número " + valor2 + "es mayor que el número " + valor1);
+            System.out.println("Ambos números son iguales.");
         }
+
+        System.out.println("");
+        System.out.println("");
+
+        System.out.println("*** Fin del programa ***");
+        scanner.close();
+
     
         
 
