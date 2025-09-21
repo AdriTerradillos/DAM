@@ -47,11 +47,11 @@ $Teoría$
 
 #### ¿De Decimal a Binario?
 
-- El sistema decimal usa los dígits del 0 al 9 <br>
+- El sistema decimal usa los dígitos del 0 al 9 <br>
 
 - El sistema **binario** solo usa los dígitos **0 y 1** <br>
 
-- Para convertir de decimal a **binario**, se divide el númro decimal **sucesivamente entre 2**, anotando el resto de cada división <br>
+- Para convertir de decimal a **binario**, se divide el número decimal **sucesivamente entre 2**, anotando el resto de cada división <br>
 
 - El número binario se forma leyendo los restos **de abajo hacia arriba**
 
