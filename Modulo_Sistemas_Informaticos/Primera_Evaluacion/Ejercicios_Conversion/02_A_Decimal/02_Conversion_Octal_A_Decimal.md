@@ -1,75 +1,102 @@
+/ Fecha: 17/09/2025 /
+
+<br>
+
+**Paso Previo:** En cualquier ejercicio, pasaremos en primer lugar ese mismo número a binario (0's y 1's)
+<br>
+
+$ Teoría$
+
+ *  Convertir de Binario a Decimal -->  Base 0's y 1's > 10
+
+ *  <code> Convertir de Octal a Decimal --> Base 8 > 10 </code>
+
+ * Convertir de Hexagesimal a Decimal --> Base 16 > 10
+
+ * Convertir a Hexadecimal --> Base 16
+
+<br>
+
+---
 
 
+### Convirtiendo a Número Decimal
+
+<br>
+
+$Teoría$
+
+<br>
 
 
+**Paso Previo:** En cualquier ejercicio, pasaremos en primer lugar ese mismo número a binario (0's y 1's)
+
+
+<br>
+
+
+## Tipos de Conversión a Decimal
 
 ### ¿De Octal a Decimal?
 
+- Solo usa dígitos del **0 al 7** <br>
 
-1. <code> Tomar el número decimal</code>: Empieza con el número entero que quieras convertir.
+- Cada número equivale a una potencia de 8, empezando desde la derecha. <br>
 
-2. <code>Divide entre 2</code>
-
-3.**Anota** el resto: El resultado de la división tendrá un coeficiente y un resto (0 o 1) anotar resto.
-
-
+- $Ejemplo$: <br>
+**$25$**<sub>8</sub> = <br>
+2 * $8^1$ + 5 * $8^0 = 16 + 5 = **21**
 
 <br>
 
-$Práctica:$
+--
+
+
+$Práctica$:
 
 Vamos ahora a completar algunos ejemplos prácticos, echando mano de nuestros apuntes teóricos. ¡Adelante!
 
-<br>
-
-<b>EJEMPLO 1:</b>
-
-: : :) Traducir **a Decimal** el número **273,351**
-
-2 * $10^2$ + 7 *$10^1$ + 3 * $10^0$ + 3 * $10^(-1)$ + 5 * $10^(-2)$ + 1 * $10^(-3)$ = <br>
-200 + 70 + 3 + 0,3 + 0,05 + 0,001 = <br>
-**273,351**
 
 <br>
 
-[Proceso Fraccionado]
 
-$\frac{200}{2}$    $\frac{70}{1}$  $\frac{3}{0}$   $\frac{3}{-1}$   $\frac{5}{-2}$   $\frac{1}{-3}$ 
+<b> Ejemplo 1: </b> Convertir $135$<sub>8</sub> a **decimal**
 
-<br>
+|  Posición (potencia)     |  Dígito Octal             | Cálculo                   |
+|--------------------------|---------------------------|---------------------------|
+| 2                        | 1                         | 1 * $8^2$ = 64            |
+| 1                        | 3                         | 3 * $8^1$ = 24            |
+| 0                        | 5                         | 5 * $8^0$ = 5             |
 
--- 
+**SUMA TOTAL[RESULTADO]** = 64 + 24 + 5 = **[93]**
 
-<b>EJEMPLO 2:</b>
-
-: : :) Traducir **a Decimal** el número **113,351**
-
-1 * $10^2$ + 1 *$10^1$ + 3 * $10^0$ + 3 * $10^(-1)$ + 5 * $10^(-2)$ + 1 * $10^(-3)$ = <br>
-100 + 10 + 3 + 0,3 + 0,05 + 0,001 = <br>
-**113,351**
 
 <br>
 
-[Proceso Fraccionado]
-
-$\frac{100}{2}$    $\frac{10}{1}$  $\frac{3}{0}$   $\frac{3}{-1}$   $\frac{5}{-2}$   $\frac{1}{-3}$ 
-
-<br>
 
 --
 
-<b>EJEMPLO 3:</b>
 
-: : :) Traducir **a Decimal** el número **3.113,351**
+<b> Ejemplo 2: </b> Convertir $47$<sub>8</sub> a **decimal**
 
-3 * $10^3$ + 1 *$10^2$ + 1 * $10^1$ + 3 * $10^0$ + 3 * $10^(-1)$ + 5 * $10^(-2)$ + 1 * $10^(-3)$ = <br>
-3.000 + 100 + 10 + 3 + 0,3 + 0,05 + 0,001 = <br>
-**3.113,351**
+|  Posición (potencia)     |  Dígito Octal             | Cálculo                   |
+|--------------------------|---------------------------|---------------------------|
+| 1                        | 4                         | 4 * $8^1$ = 32            |
+| 0                        | 7                         | 7 * $8^0$ = 7             |
+
+**SUMA TOTAL[RESULTADO]** = 32 + 7 = **[39]**
+
 
 <br>
 
-[Proceso Fraccionado]
-
-$\frac{3.000}{3}$   $\frac{100}{2}$    $\frac{10}{1}$  $\frac{3}{0}$   $\frac{3}{-1}$   $\frac{5}{-2}$   $\frac{1}{-3}$ 
 
 --
+
+
+<b> Ejemplo 3: </b> Convertir $701$<sub>8</sub> a **decimal**
+
+|  Posición (potencia)     |  Dígito Octal             | Cálculo                   |
+|--------------------------|---------------------------|---------------------------|
+| 2                        | 7                         | 7 * $8^2$ = 448           |
+| 1                        | 0                         | 0 * $8^1$ = 0            |
+| 0                        | 1                         | 1 * $8^0$ = 5             |
