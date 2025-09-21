@@ -13,7 +13,7 @@ $ Teoría$
 
  * Convertir de Hexagesimal a Decimal --> Base 16 > 10
 
- * Convertir a Hexadecimal --> Base 16
+ * 
 
 <br>
 
@@ -41,11 +41,11 @@ $Teoría$
 
 - Solo usa dígitos del **0 al 7** <br>
 
-- Cada número equivale a una potencia de 8, empezando desde la derecha. <br>
+- Cada número equivale a una potencia de 8, empezando desde la derecha. <br><br>
 
 - $Ejemplo$: <br>
-**$25$**<sub>8</sub> = <br>
-2 * $8^1$ + 5 * $8^0 = 16 + 5 = **21**
+
+    **$25$**<sub>8</sub> = 2 * $8^1$ + 5 * $8^0$ = 16 + 5 = **21**
 
 <br>
 
@@ -98,5 +98,20 @@ Vamos ahora a completar algunos ejemplos prácticos, echando mano de nuestros ap
 |  Posición (potencia)     |  Dígito Octal             | Cálculo                   |
 |--------------------------|---------------------------|---------------------------|
 | 2                        | 7                         | 7 * $8^2$ = 448           |
-| 1                        | 0                         | 0 * $8^1$ = 0            |
-| 0                        | 1                         | 1 * $8^0$ = 5             |
+| 1                        | 0                         | 0 * $8^1$ = 0             |
+| 0                        | 1                         | 1 * $8^0$ = 1             |
+
+**SUMA TOTAL [RESULTADO]** = 448 + 1 = **[449]**
+
+<br>
+
+
+--
+
+$Conclusión$:
+
+Para convertir de *Octal* a **Decimal**:
+
+1. Empieza por la derecha (posición 0)
+2. Multiplica cada dígito por $8^n$ (*n* = posición)
+3. Suma todos los resultados obtenidos.
