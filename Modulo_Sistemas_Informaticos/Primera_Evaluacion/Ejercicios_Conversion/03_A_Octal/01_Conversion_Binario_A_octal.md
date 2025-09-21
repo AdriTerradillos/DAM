@@ -44,11 +44,11 @@ $Teoría$
 
 - $Ejemplo$: <br>
 
-**$101110$**<sub>2</sub> ---> agrupar <code> 101 </code> <code> 110 </code>
+**$101110$**<sub>2</sub> ---> agrupar <code> 101 </code>   <code> 110 </code>
 
 <code> 101 </code> = 5, <br>
 <code> 110 </code> = 6 <br>
-**[RESULTADO]** $101110$<sub>2</sub> = **[56**<sub>8</sub>]
+**[RESULTADO TOTAL]** = $101110$<sub>2</sub> = **[56<sub>8</sub>]**
 
 
 <br>
@@ -125,3 +125,20 @@ Para convertir de binario a *Octal*:
 - 2. Si falta algún dígito, **agrega ceros a la izquierda**.
 - 3. Convierte cada grupo binario a su equivalente decimal (*0 a 7*).
 - 4. Une los resultados en orden => ese es tu número octal. 
+
+
+
+
+### TABLA DE APOYO 
+
+|  Número                  |  Valor (en binario)       | 
+|--------------------------|---------------------------|
+| 0                        | 0 0 0                     |
+| 1                        | 0 0 1                     | 
+| 2                        | 0 1 0                     | 
+| 3                        | 0 1 1                     |
+| 4                        | 1 0 0                     |
+| 5                        | 1 0 1                     |
+| 6                        | 1 1 0                     |
+| 7                        | 1 1 1                     |
+| 8                        | 0 0 1                     |
