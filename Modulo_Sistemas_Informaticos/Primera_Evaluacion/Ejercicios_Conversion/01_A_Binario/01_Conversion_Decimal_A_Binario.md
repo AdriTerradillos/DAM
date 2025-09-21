@@ -21,7 +21,7 @@
 <br>
 
 
-$ Teoría$
+$Teoría$
 
 **Paso Previo:** En cualquier ejercicio, pasaremos en primer lugar ese mismo número a binario (0's y 1's)
 
