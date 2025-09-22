@@ -1,6 +1,6 @@
 // Ejemplos simples de uso de booleanos en java
 
-public class EjemploBoolean {
+public class booleanos03 {
     public static void main(String[] args) {
         // Ejemplo 1: Asignar un valor booleano directamente
         boolean esMayorDeEdad = true;
