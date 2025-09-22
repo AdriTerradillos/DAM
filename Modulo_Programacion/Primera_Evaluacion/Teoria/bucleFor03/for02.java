@@ -1,7 +1,8 @@
-// Ejercicio de clase: todos los numeros que existen desde el 1 al 100 (bucle for)
+package Primera_Evaluacion.Teoria.bucleFor03;
 
 public class for02 {
-
+    
+    // Ejercicio de clase: todos los numeros que existen desde el 1 al 100 (bucle for)
     public static void main (String[] args) {
     // generamos el bucle for con los siguientes datos...
 

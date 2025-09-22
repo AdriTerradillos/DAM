@@ -4,6 +4,12 @@ public class operadoresAritmeticos02 {
 
     public static void main(String[] args) {
 
+
+
+System.out.println("");
+System.out.println("");
+
+
         /**
          * === Operadores Aritméticos ===
          --> Suma: ++
@@ -22,10 +28,27 @@ public class operadoresAritmeticos02 {
          int suma = numero1 + numero2;
          int resta = numero1 - numero2;
 
-         System.out.println("EL resultado de la suma es: " + suma + ".");
-         System.out.println("El resultado de la resta es: " + resta + ".");
+         System.out.println("****************");
+         System.out.println(" *** SUMA ***");
+         System.out.println("****************");
+         System.out.println("");
+
+         System.out.println("==> El resultado de la suma es: " + suma + ".");
 
 
+System.out.println("");
+System.out.println("");
+
+
+        System.out.println("****************");
+        System.out.println(" *** RESTA ***");
+        System.out.println("****************");
+        System.out.println("");
+
+        System.out.println("==> El resultado de la resta es: " + resta + ".");
+
+
+System.out.println("");
 System.out.println("");
 
 
@@ -37,10 +60,26 @@ System.out.println("");
          int multiplicacion = numero3 * numero4;
          int division = numero3 / numero4;
 
-         System.out.println("El resultado de la multiplicación es: " + multiplicacion + ".");
-         System.out.println("El reultado de la división es: " + division + ".");
+        System.out.println("*************************");
+        System.out.println(" *** MULTIPLICACIÓN ***");
+        System.out.println("*************************");
+        System.out.println("");
+
+         System.out.println("==> El resultado de la multiplicación es: " + multiplicacion + ".");
 
 
+System.out.println("");
+System.out.println("");
+
+
+        System.out.println("********************");
+        System.out.println(" *** DIVISIÓN ***");
+        System.out.println("********************");
+        System.out.println("");
+        System.out.println("==> El reultado de la división es: " + division + ".");
+
+
+System.out.println("");
 System.out.println("");
 
 
@@ -51,8 +90,15 @@ System.out.println("");
 
          int modulo = 40%2;
 
-         System.out.println("El resultado de este módulo es: " + modulo + ".");
+         System.out.println("********************");
+         System.out.println(" *** MÓDULO (%) ***");
+         System.out.println("********************");
+         System.out.println("");
 
+         System.out.println("==> El resultado de este módulo es: " + modulo + ".");
+
+
+System.out.println("");
 
 
 
