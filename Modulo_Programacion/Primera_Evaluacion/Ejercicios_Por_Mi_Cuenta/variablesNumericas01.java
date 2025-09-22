@@ -1,4 +1,4 @@
-package Primera_Evaluacion.Practica;
+package Primera_Evaluacion.Ejercicios_Por_Mi_Cuenta;
 
 public class variablesNumericas01 {
     
