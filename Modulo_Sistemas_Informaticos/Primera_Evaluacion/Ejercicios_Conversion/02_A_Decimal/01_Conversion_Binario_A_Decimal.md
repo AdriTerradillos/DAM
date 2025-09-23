@@ -7,10 +7,10 @@
 
 $ Teoría$
 
- * <code> Convertir a Decimal --> Base 10 </code>
- *  Convertir a Binario --> Base 2 (0 1)
- * Convertir a Octal --> Base 8
- * Convertir a Hexadecimal --> Base 16
+ * <code> De Binario a Decimal --> Base 10 </code>
+ *  De Octal a Binario --> Base 2 (0 1)
+ *  De Hexadecimal a Binario --> Base 8
+
 
 <br>
 
@@ -45,6 +45,8 @@ $1011$<sub>2</sub> = 1 * 4 + 0 * 2 + 1 * 1 =  **5**
 
 
 <br>
+<br>
+
 
 
 $Práctica:$

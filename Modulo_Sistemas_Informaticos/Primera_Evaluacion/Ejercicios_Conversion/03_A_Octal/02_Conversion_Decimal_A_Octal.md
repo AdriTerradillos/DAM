@@ -83,9 +83,10 @@ Vamos ahora a completar algunos ejemplos prácticos, echando mano de nuestros ap
 
 
 <br>
+<br>
 
 
-<b> Ejemplo 2: </b> Convertir $39$<sub>10</sub> a octal
+<b> Ejemplo 2: </b> Convertir $39$<sub>10</sub> a **Octal**
 
 |  División                |  Resultado cociente       | Resto                     |
 |--------------------------|---------------------------|---------------------------|
