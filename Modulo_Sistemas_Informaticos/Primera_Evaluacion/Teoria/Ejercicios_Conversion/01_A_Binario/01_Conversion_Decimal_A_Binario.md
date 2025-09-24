@@ -119,43 +119,8 @@ Vamos ahora a completar algunos ejemplos prácticos, echando mano de nuestros ap
 **[RESULTADO TOTAL - EJEMPLO 2]** = $58$<sub>10</sub> = **[*1 1 1  0 1 0*<sub>2</sub>]**
 
 
-<br>
-
-
-
-<b> Ejemplo 2: </b> Convertir $167$<sub>10</sub> a binario
-
-|  Numero Decimal    |  Potencias (2)                        | Valor (A binario)             |
-|--------------------|---------------------------------------|-------------------------------|
-| 167                | $2^7$ + $2^5$ + $2^2$ + $2^1$ + $2^0$ | <code>*1 0 1 0 0 1 1 1*</code>|
-
-
-**[LECTURA DE RESTOS] (de abajo hacia arriba)** = [*1 0 0 1 1 1*]
-
-**[RESULTADO TOTAL]** = $39$<sub>10</sub> = **[*1 0 0 1 1 1* <sub>2</sub>]**
-
-
 
 <br>
-
-
-
-<b> Ejemplo 3: </b> Convertir $93$<sub>10</sub> a binario
-
-|  División                |  Cociente                 | Resto                     |
-|--------------------------|---------------------------|---------------------------|
-| $\frac{93}{2}$           | 46                        | 1                         |
-| $\frac{46}{2}$           | 23                        | 0                         |
-| $\frac{23}{2}$           | 11                        | 1                         |
-| $\frac{11}{2}$           | 5                         | 1                         |
-| $\frac{5}{2}$            | 2                         | 1                         | 
-| $\frac{2}{2}$            | 1                         | 0                         |
-| $\frac{1}{2}$            | 0                         | 1                         |
-
-**[LECTURA DE RESTOS] (de abajo hacia arriba)** = [*1 0 1 1 1 0 1*]
-
-**[RESULTADO TOTAL]** = $93$<sub>10</sub> = **[*1 0 1 1 1 0 1* <sub>2</sub>]**
-
 
 <br>
 
