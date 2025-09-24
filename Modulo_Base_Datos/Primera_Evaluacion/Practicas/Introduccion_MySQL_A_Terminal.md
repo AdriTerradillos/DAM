@@ -19,6 +19,12 @@ Vamos a la terminal. Ahí aplicamos lo siguiente:
 --> Introduzco la contraseña **¡ya estoy dentro!**
 
 
+----
+
+
+
+
+
 
 
 
