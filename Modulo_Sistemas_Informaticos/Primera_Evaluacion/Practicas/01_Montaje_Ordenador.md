@@ -12,6 +12,8 @@
 | Placa Base                  | ASUS PRIME H510M-E R2.0                          |  81,25€               |
 | Memoria RAM                 | Forgeon Cyclone PLUS V2 DDR4 3200 MHz 16GB 2x8GB |  88,99€               |
 | Caja - Torreta              | Forgeon Mithril ARGB Mesh Torre ATX Negra        | 112,99€               |
-|TOTAL                                                                           | **354,73€**           |
+|TOTAL                        |                                                  | **354,73€**           |   
+
+
 
 

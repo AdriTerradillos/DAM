@@ -1,6 +1,6 @@
 
 
-### TABLA DE APOYO 
+### TABLA DE APOYO 1
 
 |  Número                  |  Valor (en binario)       | 
 |--------------------------|---------------------------|
@@ -14,9 +14,24 @@
 | 7                        | *1 1 1*                   |
 | 8                        | *0 0 1*                   |
 
+<br> 
 
 <br>
 
+
+### TABLA DE APOYO 2
+
+|$2^7$|$2^6$|$2^5$|$2^4$|$2^3$|$2^2$|$2^1$|$2^0$|      
+|------|----|-----|-----|-----|-----|-----|-----|
+| 128  | 64 | 32  | 16  |  8  |  4  |  2  |  1  |
+|  1   |    |     |     |     |     |     |     |
+|  1   | 0  |  1  |     |     |     |     |     |
+|  1   | 0  |  1  |  0  |  0  |  1  |     |     |
+|  1   | 0  |  1  |  0  |  0  |  1  |  1  |     |
+|  1   |  0 |  1  |  0  |  0  |  1  |  1  |  1  |              
+
+
+<br>
 
 <br>
 
@@ -61,17 +76,17 @@ $Teoría$
 
 - $Ejemplo$: <br>
 
-Convertir **13<sub>10</sub> a binario**: 
+Convertir **12<sub>10</sub> a binario**: 
 
-|  División                |  Cociente                 | Resto                     |
+|  Numero Decimal          |  Potencias (2)            | Valor (A binario)         |
 |--------------------------|---------------------------|---------------------------|
-| $\frac{13}{2}$           | 6                         | 1                         |
+| 12                       | $2^3$ + $2^2$             | <code>*1 1 0 0*</code>    |
 | $\frac{6}{2}$            | 3                         | 0                         |
 | $\frac{3}{2}$            | 1                         | 1                         |
 | $\frac{1}{2}$            | 0                         | 1                         |
 
-**[LECTURA DE RESTOS] (de abajo hacia arriba)** = *1 1 0 1*
-**[RESULTADO TOTAL]** = 13<sub>10</sub> = **[*1 1 0 1*<sub>2</sub>]**
+**[LECTURA]** = [*1 1 0 1*]
+**[RESULTADO TOTAL]** = 12<sub>10</sub> = **[*1 1 0 0*<sub>2</sub>]**
 
 
 
@@ -91,37 +106,31 @@ Vamos ahora a completar algunos ejemplos prácticos, echando mano de nuestros ap
 --
 
 
-<b> Ejemplo 1: </b> Convertir $25$<sub>10</sub> a binario
+<b> Ejemplo 1: </b> Convertir $25$<sub>10</sub> a binario <br> <br>
+<b> Ejemplo 2: </b> Convertir $58$<sub>10</sub> a binario <br><br>
 
-|  División                |  Cociente                 | Resto                     |
-|--------------------------|---------------------------|---------------------------|
-| $\frac{25}{2}$           | 12                        | 1                         |
-| $\frac{12}{2}$           | 6                         | 0                         |
-| $\frac{6}{2}$            | 3                         | 0                         |
-| $\frac{3}{2}$            | 1                         | 1                         |
-| $\frac{1}{2}$            | 0                         | 1                         |   
+|  Numero Decimal          |  Potencias (2)                    | Valor (A binario)             |
+|--------------------------|-----------------------------------|-------------------------------|
+| 25                       | $2^3$ + $2^2$                     | <code>*1 1 0 0*</code>        |
+| 58                       | $2^5$ + $2^4$ + $2^3$ + $2^1$     | <code>*1 1 1 0 1 0*</code>    |
 
+<br>
 
-**[LECTURA DE RESTOS] (de abajo hacia arriba)** = *1 1 0 0 1*
+**[RESULTADO TOTAL - EJEMPLO 1]** = $25$<sub>10</sub> = **[*1 1 0 0 1*<sub>2</sub>]** <br>
 
-**[RESULTADO TOTAL]** = $25$<sub>10</sub> = **[*1 1 0 0 1*<sub>2</sub>]**
-
+**[RESULTADO TOTAL - EJEMPLO 2]** = $58$<sub>10</sub> = **[*1 1 1  0 1 0*<sub>2</sub>]**
 
 
 <br>
 
 
 
-<b> Ejemplo 2: </b> Convertir $39$<sub>10</sub> a binario
+<b> Ejemplo 2: </b> Convertir $167$<sub>10</sub> a binario
 
-|  División                |  Cociente                 | Resto                     |
-|--------------------------|---------------------------|---------------------------|
-| $\frac{39}{2}$           | 19                        | 1                         |
-| $\frac{19}{2}$           | 9                         | 1                         |
-| $\frac{9}{2}$            | 4                         | 1                         |
-| $\frac{4}{2}$            | 2                         | 0                         |
-| $\frac{2}{2}$            | 1                         | 0                         | 
-| $\frac{1}{2}$            | 0                         | 1                         |
+|  Numero Decimal    |  Potencias (2)                        | Valor (A binario)             |
+|--------------------|---------------------------------------|-------------------------------|
+| 167                | $2^7$ + $2^5$ + $2^2$ + $2^1$ + $2^0$ | <code>*1 0 1 0 0 1 1 1*</code>|
+
 
 **[LECTURA DE RESTOS] (de abajo hacia arriba)** = [*1 0 0 1 1 1*]
 
