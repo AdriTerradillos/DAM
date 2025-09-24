@@ -132,13 +132,14 @@ $Conclusión$:
 
 Para convertir de Decimal a **Binario**: <br>
 
-1. Divide el número decimal **sucesivamente entre 2** <br>
+1. Multiplica por la potencia de 2, hasta reducir a 0 el valor numérico del
+ejercicio  <br>
 
-2. Anota el **resto** en cada división <br>
+2. Una vez obtienes el valor de la potencia de 2, guiate de la **TABLA DE APOYO 2** que aparece en la parte superior del archivo.
 
-3. Detente cuando el cociente sea  **0** <br>
+3. Escribe el valor numérico en binario de cada ejercicio.
 
-4. Lee los restos *de abajo hacia arriba* --> ese es tu **número binario**
+
 
 
 
