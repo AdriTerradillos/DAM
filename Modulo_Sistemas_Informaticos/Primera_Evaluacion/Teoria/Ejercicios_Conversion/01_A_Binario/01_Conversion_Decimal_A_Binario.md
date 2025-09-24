@@ -81,9 +81,7 @@ Convertir **12<sub>10</sub> a binario**:
 |  Numero Decimal          |  Potencias (2)            | Valor (A binario)         |
 |--------------------------|---------------------------|---------------------------|
 | 12                       | $2^3$ + $2^2$             | <code>*1 1 0 0*</code>    |
-| $\frac{6}{2}$            | 3                         | 0                         |
-| $\frac{3}{2}$            | 1                         | 1                         |
-| $\frac{1}{2}$            | 0                         | 1                         |
+
 
 **[LECTURA]** = [*1 1 0 1*]
 **[RESULTADO TOTAL]** = 12<sub>10</sub> = **[*1 1 0 0*<sub>2</sub>]**
