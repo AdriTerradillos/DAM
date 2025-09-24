@@ -5,6 +5,7 @@
 - Almacenamiento de las aplicaciones
 - *Ejecución de la instrucción:* De forma secuencial.
 - *Ejecución de la instrucción:* De forma inmediata.
+- Volatiliza las aplicaciones ejecutadas (al apagar)
 
 
 <br>
