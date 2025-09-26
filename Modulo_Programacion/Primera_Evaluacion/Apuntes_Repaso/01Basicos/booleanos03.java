@@ -2,6 +2,15 @@
 
 public class booleanos03 {
     public static void main(String[] args) {
+
+        
+System.out.println("");
+System.out.println("*******************************************");
+System.out.println("*** TEORÍA GENERAL DE BOOLEANOS *** ");
+System.out.println("*******************************************");
+
+System.out.println("");
+
         // Ejemplo 1: Asignar un valor booleano directamente
         boolean esMayorDeEdad = true;
         System.out.println("Ejemplo 1: ¿Es mayor de edad? " + esMayorDeEdad);
@@ -17,6 +26,9 @@ public class booleanos03 {
             System.out.println("Ejemplo 3: Acceso permitido");
         } else {
             System.out.println("Ejemplo 3: Acceso denegado");
+
+System.out.println("");
+
         }
     }
 }

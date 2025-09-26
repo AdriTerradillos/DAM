@@ -1,12 +1,17 @@
-package Primera_Evaluacion.PRACTICA;
+
 
 public class practica01 {
 
     /**
      
-     ==> Utilizaré un *BUCLE FOR* que recorrerá los 10 primeros números buscando
-            el autoincremento de la variable, deteniéndose en el número 10. 
-                ¡Manos a la obra!
+        EJERCICIO 1 -> Escribir un programa donde se muestren los 10 primeros números 
+        enteros
+
+        ==> Utilizaré un *BUCLE FOR* que recorrerá los 10 primeros números buscando
+        el autoincremento de la variable, deteniéndose en el número 10. 
+        ¡Manos a la obra!
+
+        
      */
 
     public static void main(String[] args) {

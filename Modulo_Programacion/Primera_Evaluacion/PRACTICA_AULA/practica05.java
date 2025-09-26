@@ -1,14 +1,19 @@
-package Primera_Evaluacion.PRACTICA;
+
 
 import java.util.Scanner;
 
 public class practica05 {
 
     /**
-     
-     ==> Utilizaré *Scanner* para pedir un número por teclado.
-         Luego emplearé una estructura *IF-ELSE* con el operador módulo (%) para
-             determinar si el número es *par* o *impar*. ¡Vamos allá!
+
+        EJERCICIO 5 -> Escribir un programa que pida por teclado un número al usuario 
+        y diga si es par o impar
+
+ ==> Utilizaré *Scanner* para pedir un número por teclado.
+        Luego emplearé una estructura *IF-ELSE* con el operador módulo (%) para
+        determinar si el número es *par* o *impar*. ¡Vamos allá!
+
+        
      */
 
     public static void main(String[] args) {

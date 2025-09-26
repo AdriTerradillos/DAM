@@ -1,5 +1,12 @@
 {
     "editor.snippetSuggestions": "none",
-    "editor.inlineSuggest.enabled": false
+    "editor.inlineSuggest.enabled": false,
+    "java.project.sourcePaths": [
+        "Primera_Evaluacion/Apuntes_Repaso/bucleWhile04",
+        "Primera_Evaluacion/Apuntes_Repaso/Scanner04",
+        "Primera_Evaluacion/Apuntes_Repaso/02Condicionales/IfElse",
+        "Primera_Evaluacion/Apuntes_Repaso/01Basicos",
+        "Primera_Evaluacion/PRACTICA_AULA"
+    ]
 
 }

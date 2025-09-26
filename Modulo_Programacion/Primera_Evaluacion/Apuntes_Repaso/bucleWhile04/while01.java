@@ -31,7 +31,7 @@ public class while01 {
             
 
 
-        } do while (numero > 200) {
+        do while (numero > 200);
 
             numero = scanner.nextInt();
 
@@ -39,28 +39,29 @@ public class while01 {
         
 
 
-        } do while (numero == 0) {
+        do while (numero == 0);
 
             numero = scanner.nextInt();
             
             System.out.println("El número " + numero + " es cero.");
 
+            System.out.println("");
+            System.out.println("");
+            
+            
+            
+                    System.out.println("===============================");
+                    System.out.println("* *** Fin del programa *** *");
+                    System.out.println("===============================");
+            
+            
+                    scanner.close();
+                    
         }
+    }
+}
+}
     
 
 
 
-System.out.println("");
-System.out.println("");
-
-
-
-        System.out.println("===============================");
-        System.out.println("* *** Fin del programa *** *");
-        System.out.println("===============================");
-
-
-        scanner.close();
-        
-    }
-}

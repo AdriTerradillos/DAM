@@ -1,14 +1,18 @@
-package Primera_Evaluacion.PRACTICA;
 
 import java.util.Scanner;
 
 public class practica06 {
 
     /**
-     
+        EJERCICIO 6 -> Escribir un programa que pida por teclado un número al usuario y diga si 
+        es divisible por 3 o no.
+
+
      ==> Utilizaré *Scanner* para leer un número del usuario.
          Después usaré *IF* con el operador módulo (%) para verificar si es divisible por 3.
+
      */
+
 
     public static void main(String[] args) {
 
