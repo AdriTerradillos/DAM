@@ -31,6 +31,7 @@ public class practica12 {
 
         // Tiramos los dados
         for (int i = 1; i <= numDados; i++) {
+            
             int tirada = (int)(Math.random() * caras) + 1;
             System.out.println("🎲 Dado " + i + ": " + tirada);
         }
