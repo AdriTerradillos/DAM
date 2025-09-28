@@ -1,0 +1,44 @@
+/* Esto es un comentario para los archivo .css */ 
+
+
+/* Agrego un diseño por defecto a todo lo que se encuentre dentro de la etiqueta body */
+body {
+
+    background-color: wheat;
+    size: 14cap;
+
+}
+
+
+/* Agregando diseños + específicos a los id(#) id="presentacion" y id="strong" que se muestran a continuación */
+#presentacion {
+
+    text-align: center;
+    color: blue;
+    
+}
+
+#strong {
+    color: blueviolet;
+
+}
+
+
+/* Agregando un diseño específico enfocado en la estructura de todas las etiquetas de párrafo <p> */
+.p {
+    text-align: center;
+    padding: auto;
+
+}
+
+
+/* Agregando un diseño específico a los id(#) id="sintesis" y id="listas" */
+#sintesis {
+    color: aquamarine;
+
+}
+
+#listas {
+    color: crimson;
+    
+}
