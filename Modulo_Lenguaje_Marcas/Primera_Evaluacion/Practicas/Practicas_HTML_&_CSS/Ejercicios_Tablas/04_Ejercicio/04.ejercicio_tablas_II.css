@@ -1,0 +1,20 @@
+body {
+    background-color: aliceblue;
+    margin: auto;
+    border-collapse: collapse;
+}
+
+
+#h1_head {
+    color: purple;
+    padding-left: 50px;
+    margin: auto;
+
+    
+}
+
+#tableGnral {
+
+    background-color: aliceblue;
+    border-collapse: collapse;
+}
