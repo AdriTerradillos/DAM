@@ -1,37 +1,39 @@
 import java.util.Scanner;
 
+import com.sun.nio.sctp.SctpChannel;
+
 public class Ejercicio07 {
-    
 
-    // Ejercicio 7: Escribir un programa que pida un número por teclado que simule ser el precio de un artículo y aplicarle el IVA del 21%
+    // Ejercicio 7 -> Escribirun programa que pida un número por teclado que simule ser el
+    // precio de un artículo y aplicarle el IVA del 21%
 
-/*
-1. Pedir al usuario que introduzca el precio del artículo usando Scanner.
-2. Calcular el IVA multiplicando el precio por 0.21.
-3. Sumar el IVA al precio original para obtener el precio final.
-4. Mostrar el resultado por pantalla.
+    /**
+    1º- Pedir entrada por mensaje del precio del articulo al usuario (Scanner)
+    2º- Calculo del IVA multiplicando precio original para obtener precio final
 
-*/
+     */
 
- public static void main(String[] args) {
-
+     public static void main(String[] args) {
+        
         Scanner teclado = new Scanner(System.in);
 
-        System.out.print("Introduce el precio del artículo: ");
+        System.out.println("Introduce el precio del artículo: ");
         double precio = teclado.nextDouble();
-        
 
-        double precioFinal = precio * 1.21; // sumando el 21% de IVA
-        System.out.println("El precio con IVA del 21% es: " + precioFinal);
+        double precioFinal = precio * 1.21;
+        System.out.println("El precio con IVA del 21% de este artículo es: " + precioFinal);
 
-    
 
         teclado.close();
-    }
+
+        System.out.println("");
+        System.out.println(" *** Fin del Programa ***");
+        System.out.println("");
 
 
 
-}
 
-
-
+        }
+        };
+     }
+    
