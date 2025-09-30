@@ -1,0 +1,58 @@
+Tema 1: Fundamentos Hardware 
+Ejercicio Sistemas de numeración I
+
+Realiza las siguientes conversiones sin ayuda de la calculadora:
+
+1. Convierte a Decimal:
+
+a) 110|2
+b) 11011|2
+c) 1110011001|2
+
+e) 345|8
+f) 6734|8
+g) 34571|8
+
+h) AB2|16
+i) 21FD|16
+j) 99CDE|16
+
+2. Convierte a Binario:
+
+a) 78|10
+b) 293|10
+c) 6487|10
+
+e) 34|8
+f) 673|8
+g) 3457|8
+
+h) AB|16
+i) 21F|16
+j) 19CD|16
+
+3.  Convierte a Octal:
+
+a) 784|10
+b) 2931|10
+c) 64879|10
+
+e) 110|2
+f) 11011|2
+g) 1110011001|2
+
+h) AB2|16
+i) 21FD|16
+j) 99CDE|16
+
+4. Convierte a Hexadecimal:
+
+a) 784|10
+b) 2931|10
+c) 64879|10
+e) 110|2
+f) 11011|2
+g) 1110011001|2
+h) 345|8
+i) 6734|8
+j) 34571|8

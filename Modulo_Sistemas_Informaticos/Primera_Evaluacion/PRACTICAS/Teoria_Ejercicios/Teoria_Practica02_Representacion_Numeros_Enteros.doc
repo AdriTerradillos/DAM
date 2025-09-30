@@ -1,0 +1,24 @@
+Tema 1: Sistemas Informáticos
+Representación números Enteros
+
+
+
+Revisa el ejemplo y a continuación  realiza los ejercicios 1,2,3. 
+
+|-------------------|----------------------|------------------------|----------------------|
+|   Decimal         |    Signo_Magnitud    |  Complemento A1        |  Complemento A2      |
+|-------------------|----------------------|------------------------|----------------------|
+|       0           |    00000 / 10000     |    00000 / 11111       |      00000           |
+|      -5           |       10101          |        11010           |      
+
+
+1. Utilizando 8 bits (n = 8), representa el número−26, siguiendo el convenio de complemento a dos. 
+
+
+2.Representa el número -6610 en binario complemento a dos con 8 bits
+
+
+3.Representa el número +9910 en binario complemento a dos con 8 bits.
+
+
+
