@@ -1,0 +1,43 @@
+
+
+1. Carga la Base de Datos tienda_online
+source tienda_online-data.sql;
+
+
+2. Listado simple -> Obtén un listado de 7 nombres e emails de clientes.
+
+
+3. GBsModelo1
+
+2. SELECT DISTINCT pais
+→ FROM clientes;
+
+3. SELECT nombre
+→FROM clientes 
+→WHERE pais In (‘España’, ‘Italia’, ‘Portugal’);
+
+4. SELECT sum(total_pagado)
+
+5. SELECT email
+→ FROM clientes 
+→ WHERE fecha_registro NOT BETWEEN
+
+6. SELECT *
+→FROM productos 
+→ WHERE precio LIKE ‘%.99%’;
+
+8. SELECT nombre, addate (fecha_registro, interval 3 month) AS fecha_registro
+→ FROM clientes LIMIT 10;
+
+9. SELECT *
+→FROM productos 
+→ ORDER BY precio * stock;   (opción 1)
+
+9. SELECT *
+→FROM productos 
+→ORDER BY precio * stock DESC LIMIT 5; (opción más correcta)
+
+10. SELECT email
+→FROM clientes 
+→WHERE year(fecha_registro) = 2023 AND SUSBSTRING(nombre 1,1) =  SUBSTRING(nombre, 5,1);
+
