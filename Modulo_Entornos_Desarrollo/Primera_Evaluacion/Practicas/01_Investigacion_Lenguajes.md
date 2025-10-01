@@ -1,4 +1,4 @@
-// 01/10/2025
+s// 01/10/2025
 
 ## Índice
 
@@ -12,43 +12,48 @@
 <br>
 
 ---
-* Características y Ventajas *
+* Características Principales
+* Ventajas 
+* Desventajas
 ---
 
+<br>
 
 ### 1. HTML 
 
-<mark>Principales características: </mark>
+<br>
 
-- <b> Lenguaje de marcado: </b> Utiliza etiquetas para organizar y dar significado al contenido de una página web, como textos, imágenes, enlaces, etc. 
+<code>Principales características</code>
 
-- <b> Estructura jerárquica: </b> se estructura sobre la anidación de etiquetas creando un "árbol" de elementos que define el orden del contenido.
+**Lenguaje de marcado:** emplea etiquetas para organizar y dar significado al contenido de una página web, como textos, imágenes, enlaces, etc. 
 
-- <b> Facilidad de uso: </b> Facilidad de aprendizaje, incluso para iniciales con una sintaxis uniforme y estructurada </b>
+**Estructura jerárquica:** se estructura sobre la anidación de etiquetas creando un "árbol" de elementos que define el orden del contenido.
 
-- <b> Código Abierto y Gratuito: </b> HTML es código abierto y accesible por cualquier usuario.
+**Facilidad de uso:** aprendizaje rápido, incluso para iniciales con una sintaxis sencilla y estructurada. 
+
+**Código Abierto y Gratuito:** </b>** de *HTML* además de accesible por cualquier usuario.
 
 <br>
 
-<mark> Ventajas </mark>
+✅ <code>Ventajas</code>
 
-- <b> Sencillez de monitoreo
+- **<span style="color: green;"> Ejecución sencilla</span>** 
 
-- <b> No requiere demasiados conocimientos </b>
 
-- <b> Fácil de aprender </b>
+- **<span style="color: green;"> Archivos pequeños y predecibles</span>** 
 
-- <b> Archivos pequeños y predecibles </b>
+- **<span style="color: green;"> Fácil de aprender:</span>** 
+No requiere demasiados conocimientos </b>
 
 <br>
 
-<mark> Desventajas  </mark>
+❌ <code><span style="color=red;">Desventajas</span></code>
 
-- <b> Lenguaje estatico y uniforme </b>
+- <span style="color:red;">Lenguaje **estatico y uniforme** </span>
 
-- <b> Uso de etiquetas limitadas </b>
+- <span style="color:red;">Uso de **etiquetas *(o tag's)* limitadas** </span>
 
-- <b> Interpretación incompatible entre navegadores </b>
+- <span style="color:red;">**Interpretación incompatible** entre navegadores </span>
 
 <br>
 
@@ -58,38 +63,39 @@
 
 ## 2. JavaScript 
 
-<mark> Características principales </mark>
+<br>
 
-- <b> Ejecución directa </b> Se ejecuta directamente desde el pc (o entorno de servidor como Node.js)
+<code>Principales Características</code>
 
-- <b> Sin declaración de tipos: </b> No es necesario declarar el tipo de dato de una variable antes de usarla.
+**Ejecución directa** desde el pc (o entorno de servidor como Node.js)
 
-- <b> Herencia prototípica: </b> <c> JavaScript </c> permite crear y reutilizar objetos de manera flexible.
+**No declaración de tipos** no se necesita declarar el tipo de dato de una variable antes de usarla.
 
-- <b> Contenido dinámico: </b> Es clave para crear contenido dinámico, directo, animaciones y otras funcionalidades.
+**Herencia prototípica** JavaScript <ins>permite crear y reutilizar objetos</ins> de manera flexible.
+
+**Contenido dinámico** es clave para crear contenido dinámico, directo, animaciones y otras funcionalidades.
 
 <br>
 
-<mark> Ventajas </mark>
+✅ <code>Ventajas</code>
 
-- <b> Versatilidad: </b> JavaScript puede utilizarse en navegador (frontend) como en el servidor (Node.js)
+ - **<span style="color: green;"> Versatilidad:</span>** JavaScript puede utilizarse en navegador (frontend) como en el servidor (Node.js)
 
-- <b> Gran Comunidad </b> Comunidad de desarrolladores muy activa que proporciona soporte, crea librerías, frameworks...
+- **<span style="color: green;"> Gran Comunidad:</span>** comunidad de desarrolladores muy activa, proporcionando soporte, creación librerías, frameworks...
 
-- <b> Facilidad aprendizaje: </b> Su sintaxis es relativamente simple, siendo buen punto de partida para principiantes. 
+- **<span style="color: green;"> Facilidad de aprendizaje:</span>** sintaxis relativamente simple, siendo buen punto de partida para principiantes. 
 
 <br>
 
-<mark> Desventajas </mark>
+❌ <code>Desventajas</code>
+
+- <span style="color:red;"> **Compatibilidad entre navegadores y dispositivos:**</span> interpretación del código JavaScript de forma distinta.
 
 
-- <b> Compatibilidad entre navegadores y dispositivos: </b> interpretación del código JavaScript de forma distinta.
+- <span style="color:red;"> **Vulnerabilidad a problemas de seguridad:** </span> el código es visible para el usuario y vulnerable a la explotación.
 
 
-- <b> Vulnerabilidad a problemas de seguridad: </b> el código es visible para el usuario y vulnerable a la explotación.
-
-
-- <b> Problemas de rendimiento: </b> el uso excesivo de memoria, como ocurre con los cierres, ralentiza las aplicaciones web
+- <span style="color:red;"> **Problemas de rendimiento:** </span> el uso excesivo de memoria, como ocurre con los cierres, ralentiza las aplicaciones web.
 
 
 
@@ -102,23 +108,72 @@
 ---
 
 
-- <b> Código Abierto y Multiplataforma: </b>  código abierto desarrollado en GitHub que permite crear aplicaciones web y servicios en la nube.
+**Código Abierto y Multiplataforma** desarrollado en GitHub que permite crear aplicaciones web y servicios en la nube.
 
 
-- <b> Alto Rendimiento: </b> Diseñado para ser modular y eficiente, con un servidor HTTP multiplataforma llamado Kestrel
+**Alto Rendimiento:** diseñado para ser modular y eficiente, con un servidor *HTTP multiplataforma* llamado Kestrel.
 
 
-- <b> APIs: </b> Para crear servicios web. 
+**APIs** Para crear servicios web. 
 
-- <b> Aplicaciones en Tiempo Real: </b> comunicación instantánea entre el servidor y los clientes. 
+***Aplicaciones en tiempo real***  a través de una comunicación instantánea entre el servidor y los clientes. 
+
+<br>
+
+✅ <code>Ventajas</code>
+
+- <span style="color: green;">**Alta capacidad de compatibilización** con otros lenguajes</span> como <code>.xml</code>, <code>.pxp</code> y <code>.html</code>
+
+- **<span style="color: green;">Seguridad robusta y firme: </span>** funciones de autenticación y autorización, fomentando la protección de datos.
+
+- **<span style="color: green;">Marco de trabajo gratuito y completo:</span>** ofrece un *framework* gratuito que incluye bibliotecas y herramientas que hacen la vida más fácil el trabajo del desarrollador.
+
+<br>
+
+❌ <code>Desventajas</code>
+
+- <span style="color:red;"> **Incompatibilidad** con API **Windows**</span> requiere *framework .NET*
+
+- <span style="color:red;"> **Soporte limitado**</span> encontrando problemas en compatibilidad de bibliotecas dispares a *.NET framework*
 
 
 <br>
 
-<mark> Ventajas </mark>
+---
 
-- <b> Compatibilidad con otras tecnologías </b>
+<br>
 
-- <b> Ideal para APIs web </b>
+### 4. Python
+
+<code>Principales Características</code>
+
+**Tipado dinámico:** python es capaz de declarar el tipo de variable, agilizando su escritura.
+
+**Orientado a Objetos:** Fomenta la estructuración del código sobre objetos, siendo compatible con la programación funcional.
+
+**Alto nivel:** sintáxis sencilla de leer y entender, muy similar a nuestro lenguaje.
+
+
+<br>
+
+
+✅ <code>Ventajas</code>
+
+- **<span style="color: green;">Amplia biblioteca estandar</span>** 
+
+- **<span style="color: green;">Fácil de usar:</span>** sintáxis clara y legible, dan como resultado un lenguaje sencillo durante el aprendizaje.
+
+
+- **<span style="color: green;">Integración fácil con otros lenguajes:</span>** como *C* y *C++* 
+
+<br>
+
+❌ <code>Desventajas</code>
+
+- <span style="color:red;"> **No** es ideal para **desarrollo móvil**.</span>
+
+- <span style="color:red;">**Problemas de comprensión asíncrona:** </span> especialmente al trabajar con código de otros lenguajes.
+
+- <span style="color:red;">**Velocidad de ejecución:**</span> en comparación con lenguajes como *C++* o *Java*.
 
 
