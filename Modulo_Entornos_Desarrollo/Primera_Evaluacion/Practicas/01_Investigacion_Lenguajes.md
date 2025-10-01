@@ -1,4 +1,4 @@
-s// 01/10/2025
+<!--01/10/2025-->
 
 ## Índice
 
@@ -98,8 +98,6 @@ No requiere demasiados conocimientos </b>
 - <span style="color:red;"> **Problemas de rendimiento:** </span> el uso excesivo de memoria, como ocurre con los cierres, ralentiza las aplicaciones web.
 
 
-
-
 ---
 
 <br>
@@ -175,5 +173,6 @@ No requiere demasiados conocimientos </b>
 - <span style="color:red;">**Problemas de comprensión asíncrona:** </span> especialmente al trabajar con código de otros lenguajes.
 
 - <span style="color:red;">**Velocidad de ejecución:**</span> en comparación con lenguajes como *C++* o *Java*.
+
 
 
