@@ -20,7 +20,9 @@ public class ejercicio03 {
         System.out.println("Tu nombre y apellidos es: " + apellidos + " , " + nombre + ".");
 
 
-        String texto1 = "Jose María";
+        System.out.printn("Resultado final: " + apellidos + "," + .concat(nombre));
+
+        // Resultado = "Morales Vázquez, Jose María";
 
         for(int i = 0; i < texto1.length(); i++) {
             System.out.println(texto.charAt(i));
