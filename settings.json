@@ -1,0 +1,71 @@
+{
+    // -------------------------
+    // SNIPPETS ÚNICAMENTE, CERO AUTOCOMPLETADO
+    // -------------------------
+    "editor.quickSuggestions": {
+        "other": false,
+        "comments": false,
+        "strings": false
+    },
+    "editor.suggestOnTriggerCharacters": true,
+    "editor.wordBasedSuggestions": true,
+    "editor.acceptSuggestionOnEnter": "off",
+    "editor.tabCompletion": "onlySnippets",
+    "editor.suggest.showWords": false,
+    "editor.suggest.showSnippets": true,
+    "editor.suggest.showKeywords": false,
+    "editor.suggest.showMethods": false,
+    "editor.suggest.showFunctions": false,
+    "editor.suggest.showVariables": true,
+    "editor.suggest.showClasses": false,
+    "editor.suggest.showModules": false,
+    "editor.suggest.showProperties": false,
+    "editor.suggest.showEvents": false,
+    "editor.suggest.showColorDecorators": false,
+    "editor.suggestSelection": "first",
+    "editor.parameterHints.enabled": false,
+    "editor.hover.enabled": false,
+    "editor.codeLens": false,
+    // -------------------------
+    // BOTÓN RUN PERMANENTE
+    // -------------------------
+    "code-runner.showRunIconInEditorTitleMenu": true,
+    "code-runner.runInTerminal": true,
+    "code-runner.clearPreviousOutput": true,
+    "code-runner.saveFileBeforeRun": true,
+    "workbench.editor.showTabs": true,
+    "workbench.editor.decorations.badges": true,
+    "workbench.activityBar.visible": true,
+    "workbench.statusBar.visible": true,
+    // -------------------------
+    // TERMINAL INTEGRADA
+    // -------------------------
+    "terminal.integrated.scrollback": 10000,
+    "terminal.integrated.cursorBlinking": true,
+    "terminal.integrated.fontSize": 14,
+    "terminal.integrated.lineHeight": 1.2,
+    "terminal.integrated.enableBell": false,
+    // -------------------------
+    // EXPERIENCIA DE EDICIÓN LIMPIA
+    // -------------------------
+    "editor.minimap.enabled": false,
+    "editor.renderWhitespace": "boundary",
+    "editor.formatOnSave": true,
+    "files.autoSave": "off",
+    "files.hotExit": "onExitAndWindowClose",
+    "breadcrumbs.enabled": true,
+    // -------------------------
+    // EXPLORER Y INTERFAZ
+    // -------------------------
+    "explorer.confirmDelete": false,
+    "explorer.openEditors.visible": 0,
+    "workbench.startupEditor": "newUntitledFile",
+    "workbench.colorTheme": "Default Dark+",
+    "workbench.iconTheme": "vs-seti",
+    // -------------------------
+    // SEGURIDAD ANTE EXTENSIONES FUTURAS
+    // -------------------------
+    "extensions.ignoreRecommendations": true,
+    "extensions.autoUpdate": false,
+    "extensions.autoCheckUpdates": false
+}
