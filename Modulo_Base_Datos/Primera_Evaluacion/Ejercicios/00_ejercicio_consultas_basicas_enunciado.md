@@ -81,3 +81,5 @@
 #### 5.10. Obtener la fecha de hoy
 
 #### 5.11. Calcular cuántos días han pasado desde el registro de cada cliente hasta hoy
+
+...
